@@ -1,4 +1,16 @@
 h1{
     text-align: center;
-    color: gold
+    color: gold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    
+}
+
+.img{
+    width: 10%;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    left:16px
+    
 }
