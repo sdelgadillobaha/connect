@@ -1,4 +1,10 @@
 /*PUT THIS INTO STYLE.CSS*/
+.title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
 .secondpage {
     /* Sizing */
     width: 100vw;
@@ -63,7 +69,7 @@ body {
     /* Background styles */
     background-image: url("vintage-wallpaper-background_53876-31379.jpg");
     background-size: cover;
-    background-position: center center;
+    background-position: center ;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
