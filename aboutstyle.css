@@ -1,63 +1,10 @@
-.header{
-    text-align: center;
-    color: gold;
-    font-family: 'Raleway', sans-serif;
-    font-size: 70px;
-    font-weight: bold;
+.shirley {
+    margin-left: 12%;
+} 
 
-
-    /* Flexbox stuff */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.text {
-    text-align: center;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 34px;
-}
-
-.img{
-    width: 13%;
-    border-radius: 50%;
-    position: absolute;
-    top:10px;
-    left:16px;
-    
-}
-
-body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('background.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+.title{
 
 }
-
-
-.hero {
-    /* Sizing */
-    width: 200vw;
-    height: 200vh;
-    
-    /* Flexbox stuff */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("unnamed.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-/* Icon 1 */
-
 .animated-icon1, .animated-icon2, .animated-icon3 {
     width: 30px;
     height: 20px;
@@ -93,7 +40,7 @@ body{
     }
     
     .animated-icon1 span {
-    background: gold;
+    background: black;
 
     }
     
@@ -139,6 +86,18 @@ body{
         font-size: 25px;
     }
 
-    .w3-quarter{
-        margin-left: 10%;
+    h1{
+        text-align: center;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        font-size: 400px;
+        font-weight: bold;
+    }
+
+    .p {
+        text-align: center
+    }
+
+    b {
+        font-size: 90px
     }
