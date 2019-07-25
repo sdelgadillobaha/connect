@@ -2,59 +2,8 @@
     text-align: center;
     color: gold;
     font-family: 'Raleway', sans-serif;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
-
-
-    /* Flexbox stuff */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.text {
-    text-align: center;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 34px;
-}
-
-.img{
-    width: 13%;
-    border-radius: 50%;
-    position: absolute;
-    top:10px;
-    left:16px;
-    
-}
-
-body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('background.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-
-.hero {
-    /* Sizing */
-    width: 200vw;
-    height: 200vh;
-    
-    /* Flexbox stuff */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("unnamed.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 /* Icon 1 */
 
@@ -142,3 +91,14 @@ body{
     .w3-quarter{
         margin-left: 10%;
     }
+    
+body{
+    background-image: url('climatechange.jpg');
+    background-size: cover;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.body {
+    text-align: center
+}
