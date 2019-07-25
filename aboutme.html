@@ -3,12 +3,15 @@
 <title>About Us</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="aboutstyle.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- <style>
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 10px}
+/* .w3-row-padding img {margin-bottom: 10px} */
 .bgimg {
   background-position: center;
   background-repeat: no-repeat;
@@ -16,17 +19,17 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   background-image: url('/w3images/profile_girl.jpg');
   min-height: 100%;
 }
-</style>
+</style> -->
 <body>
 
- 
+
 <!-- Sidebar with image -->
-<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:10%">
+<!-- <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:10%">
   <div class="bgimg"></div>
-</nav>
+</nav> -->
 
 <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
-<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+<!-- <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
   <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 10px;">
     <i class="fa fa-remove"></i>
   </a>
@@ -36,23 +39,60 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <a href="#Who We Are" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Who We Are</a>
     <a href="#Contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
   </div>
-</nav>
+</nav> -->
 
 <!-- Page Content -->
-<div class="w3-main w3-padding-large" style="margin-left:10%">
+<!-- <div class="w3-main w3-padding-large" style="margin-left:10%"> -->
 
   <!-- Menu icon to open sidebar -->
-  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+  <!-- <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span> -->
 
   <!-- Header -->
-  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
-    <h1 class="w3-jumbo"><b>About Us</b></h1>
-    <p>High school seniors and web designers.</p>
+  <!-- <header class="w3-container w3-center" style="padding:128px 16px" id="home"> -->
+     <!--Navbar-->
+     <br>
+   <br>
+   <nav class="navbar navbar-light amber lighten-4 mb-4" >
+       <!-- Navbar brand -->
+       <a class="navbar-brand" href="#"></a>
+   
+     <!-- Collapse button -->
+     <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+       aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+       <div class="animated-icon1" ><span></span><span></span><span></span></div>
+     </button>
+   
+     <!-- Collapsible content -->
+     <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+   
+       <!-- Links -->
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="https://sdelgadillobaha.github.io/connect/" style='color:#000000'>Home <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="secondpg.html" style='color:#000000'>Issues</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="aboutme.html" style='color:#000000'>About Us</a>
+         </li>
+       </ul>
+       <!-- Links -->
+   
+     </div>
+     <!-- Collapsible content -->
+   
+   </nav>
+   <!--/.Navbar-->
+    <h1><b>About Us</b> 
+    </h1>
+  
+    <p class = "p">High school seniors and web designers.</p>
   </header>
 
   <!-- Our Story Here -->
   <div class="w3-padding-32 w3-content" id="Our Story">
-    <h2 class="w3-text-grey">Background Info.</h2>
+    <h2 class="w3-text-black">Background Info.</h2>
     <hr class="w3-opacity">
     <p>Our website is based around social justice. We wanted to create a platfrom for individuals to 
     read all about the different causes in the world as well as how they might get involved around their community. </p>
@@ -64,35 +104,33 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <!-- 3 Squares -->
 <div class="w3-row-padding w3-center w3-margin-top">
 <div class="w3-third">
-  <div class="w3-card w3-container" style="min-height:460px">
+  <div class="w3-card w3-container" style="min-height:200px">
   <h3>Education</h3><br>
   <i class="fa fa-book aria-hidden=true w3-margin-bottom w3-text-theme" style="font-size:110px"></i>
-  <p>Built-in responsiveness</p>
-  <p>Mobile first fluid grid</p>
-  <p>Fits any screen sizes</p>
-  <p>PC Tablet and Mobile</p>
+  <p>Our goal is to educate the youth about the issues surrounding them and affecting their everyday life.</p>
+  <p>“Education is the most powerful weapon which you can use to change the world."</p>
+  <p>- Nelson Mandela</p>
   </div>
 </div>
 
 <div class="w3-third">
-  <div class="w3-card w3-container" style="min-height:460px">
+  <div class="w3-card w3-container" style="min-height:200px">
   <h3>Leadership</h3><br>
   <i class="fa fa-handshake-o aria-hidden=true w3-margin-bottom w3-text-theme" style="font-size:110px"></i>
-  <p>Standard CSS only</p>
-  <p>Easy to learn</p>
-  <p>No need for jQuery</p>
-  <p>No JavaScript library</p>
+  <p>We encourage the youth to become leaders in their community to create change and foster a community with activism.</p>
+  <p>"Our lives begin to end the day we become silent about things that matter."</p>
+  <p>- Martin Luther King Jr.</p>
   </div>
 </div>
 
 <div class="w3-third">
-  <div class="w3-card w3-container" style="min-height:460px">
+  <div class="w3-card w3-container" style="min-height:200px">
   <h3>Philanthropy</h3><br>
   <i class="fa fa-heart-o aria-hidden=true w3-margin-bottom w3-text-theme" style="font-size:100px"></i>
-  <p>Paper like design</p>
-  <p>Bold colors and shadows</p>
-  <p>Equal across platforms</p>
-  <p>Equal across devices</p>
+  <p>We want organizations working for good causes to receive support through donations in order to achieve a greater imapct.</p>
+  <p>“If you’re in the luckiest 1 percent of humanity, you owe it to the rest of humanity to think about the other 99 percent.”
+  </p>
+  <p>— Warren Buffett</p>
   </div>
 </div>
 </div>
@@ -101,74 +139,75 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 
   <!-- Who We Are -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="Who We Are">
-    <h2>Who We Are</h2>
+  <div class="w3-content w3-justify w3-text-black w3-padding-32" id="Who We Are">
+    <h2>Who Are We</h2>
     <hr class="w3-opacity">
    
 <!-- Images of the individual -->
-    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
-      <div class="w3-quarter w3-section">
+<div class="w3-row w3-center w3-black w3-padding-16 w3-section">
+      <div class="shirley w3-quarter w3-section">
         <span class="w3-xlarge"></span><br>
+        <img src="shirley.jpg" alt="" style="width: 14em; height: 14em;">
         Shirley
       </div>
       <div class="w3-quarter w3-section">
         <span class="w3-xlarge"></span><br>
-        <img src="Scarlett.jpg" alt="" style="width: 14em; height: 14em;">
+        <img src="scarlett.jpg" alt="" style="width: 14em; height: 14em;">
         Scarlett
       </div>
       <div class="w3-quarter w3-section">
         <span class="w3-xlarge"></span><br>
+        <img src="daisy.jpg" alt="" style="width: 14em; height: 14em;">
         Daisy
       </div>
     </div>
 
     <!-- Individual -->
     <h3 class="w3-padding-24">More About Us</h3>
-    <p><span class="w3-large w3-text-black w3-margin-right">Shirley.</span>CO-Founder</p>
-    <p>Shirley is a rising senior at John H Francis Polytechnic Math/Science Magnet HS. She came up with the idea in 2018 when she realized that students do not get enough exposure on important issues in school. 
 
-    </p><br>
+    <p><span class="w3-large w3-text-black w3-margin-right">Shirley.</span>CO-Founder</p>
+    <p>Shirley is a Congressional App Challenge winner and rising senior at John H Francis Polytechnic Math/Science Magnet HS. She began working on Connect in 2018 when she realized that, in school, students do not get enough exposure on important issues. 
    
     
-    <p><span class="w3-large w3-text-black w3-margin-right">Scarlett.</span>CO-Founder</p>
+    <p><span class="w3-large w3-text-black w3-margin-right">Scarlett.</span>Co-Founder</p>
     <p>Scarlet is a rising senior at International Polytechnic High. She began coding at 15 after taking a HTML class. She plans to major in computer engineering.</p><br>
     
    
-    <p><span class="w3-large w3-text-black w3-margin-right">Daisy.</span>CO-Founder</p>
-    <p>Daisy is a rising senior at West Adams Preparatory High School. She very active in and out of school: from basketball to mentor to coding. She started coding at the of 16 and since then has been very fasinated. She hopes with the help of "Connect" people can be well aware of the issues we are facing and how they may contribute.
+    <p><span class="w3-large w3-text-black w3-margin-right">Daisy.</span>Co-Founder</p>
+    <p>Daisy is a rising senior at West Adams Preparatory High School. She's very active in and out of school: from basketball to mentor to coding. She started coding at the of 16 and since then has been fasinated.
       </p><br>
     
 
   <!-- Contact Section 1 -->
-  <div class="w3-padding-32 w3-content w3-text-grey" id="Contact" style="margin: 110px">
+  <div class="w3-padding-32 w3-content w3-text-black" id="Contact" style="margin: 110px">
         <h2>Contact Shirley</h2>
         <hr class="w3-opacity">
     
         <div class="w3-section">
           <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Los Angeles, US</p>
-          <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (213)-255-9553</p>
+          <p><i class="fa fa-linkedin aria-hidden=true fa-fw w3-xxlarge w3-margin-right"></i><a href= "https://www.linkedin.com/in/shirley-delgadillo-80956518a/"target="_blank">Shirley's Linkedin</a></p>
           <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: Shirleydelgadillo16@gmail.com</p>
         </div>
     
         <!-- contact section 2 -->
-        <div class="w3-padding-32 w3-content w3-text-grey" id="Contact" style="margin: left">
+        <div class="w3-padding-32 w3-content w3-text-black" id="Contact" style="margin: left">
             <h2>Contact Scarlett</h2>
             <hr class="w3-opacity">
     
             <div class="w3-section">
               <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Los Angeles, US</p>
-              <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (626)-541-3771</p>
+              <p><i class="fa fa-linkedin aria-hidden=true fa-fw w3-xxlarge w3-margin-right"></i><a href= "https://www.linkedin.com/in/scarlet-mejia-51ba0618a/"target="_blank">Scarlett's Linkedin</a></p>
               <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: Scarlett.m443@gmail.com</p>
             </div>
     
         <!-- contact section 3 -->
-        <div class="w3-padding-32 w3-content w3-text-grey" id="Contact" style="margin: left">
+        <div class="w3-padding-32 w3-content w3-text-black" id="Contact" style="margin: left">
             <h2>Contact Daisy</h2>
             <hr class="w3-opacity">
         
             <div class="w3-section">
               <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Los Angeles, US</p>
-              <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (213)-531-1500</p>
+              <p><i class="fa fa-linkedin aria-hidden=true fa-fw w3-xxlarge w3-margin-right"></i><a href="https://www.linkedin.com/in/daisy-bautista-658a4518a/"target="_blank">Daisy's Linkedin</a></p>
               <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: Daisy.ibv@gmail.com</p>
             </div>
    
@@ -176,29 +215,18 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   
   <!-- Footer -->
   <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i> 
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <a class="fa fa-facebook-official w3-hover-opacity" href="https://www.facebook.com/GirlsWhoCode/"target="_blank"></a> 
+    <a class="fa fa-instagram w3-hover-opacity" href="https://www.instagram.com/girlswhocode/"target="_blank"></a>
+    <a class="fa fa-twitter w3-hover-opacity" href="https://twitter.com/GirlsWhoCode?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"target="_blank"></a>
   <!-- End footer -->
   </footer>
   
 <!-- END PAGE CONTENT -->
 </div>
 
-<script>
-// Open and close sidebar
-function openNav() {
-  document.getElementById("mySidebar").style.width = "50%";
-  document.getElementById("mySidebar").style.display = "block";
-}
-
-function closeNav() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="main.js"></script>
 </body>
 </html>
