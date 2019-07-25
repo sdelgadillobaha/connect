@@ -24,9 +24,9 @@
     .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
     display: block;
     position: absolute;
-    height: 3px;
+    height: 5px;
     width: 100%;
-    border-radius: 9px;
+    border-radius: 5px;
     opacity: 1;
     left: 0;
     -webkit-transform: rotate(0deg);
@@ -85,7 +85,9 @@
         font-family: 'Raleway', sans-serif;
         font-size: 25px;
     }
-
+.w3{
+    margin-left: 10%
+}
     h1{
         text-align: center;
         color: black;
