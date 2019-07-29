@@ -2,6 +2,10 @@
     margin-left: 12%;
 } 
 
+body {
+    background-image: url("blackyellow.png");
+}
+
 .title{
 
 }
@@ -40,7 +44,7 @@
     }
     
     .animated-icon1 span {
-    background: black;
+    background: rgb(255, 255, 255);
 
     }
     
@@ -90,7 +94,7 @@
 }
     h1{
         text-align: center;
-        color: black;
+        color: rgb(255, 255, 255);
         font-family: 'Raleway', sans-serif;
         font-size: 400px;
         font-weight: bold;
@@ -102,4 +106,9 @@
 
     b {
         font-size: 90px
+    }
+
+    .aboutus {
+        /* background-color: red; */
+        background-image: url("blackyellow.png");
     }
