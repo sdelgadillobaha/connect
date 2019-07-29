@@ -1,89 +1,68 @@
-/*PUT THIS INTO STYLE.CSS*/
 .title{
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 60px;
     font-weight: bold;
+    color: rgb(226, 202, 68);
 }
 
-.secondpage {
-    /* Sizing */
-    width: 100vw;
-    height: 100vh;
-    
-    /* Flexbox stuff */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.secondpage p {
-    /* Text styles */
-    font-size: 1em;
-}
-
-body {
-    margin: 0; 
-    font-family: sans-serif;
-
-}
-
-.secondpage {
-    /* Sizing */
-    width: 500vw;
-    height: 100vh;
-    
-    /* Flexbox stuff */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    /* Text styles */
+.header{
     text-align: center;
-    color: black; /* ADD THIS LINE */
-    
-    /* Background styles */
-    /*background-image: url("vintage-wallpaper-background_53876-31379.jpg"); */
-    background-size: cover;
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+    color: gold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
 
-/* .secondpage-inner {
-    width: 1500px;
-} */
 
-.secondpage h1 {
-    /* Text styles */
-    font-size: 5em;
-    
-    /* Margins */
-    margin-top: 0;
-    margin-bottom: 0.5em;
-}
-
-.secondpage {
-    /* Sizing */
-    width: 100vw;
-    height: 100vh;
-    
     /* Flexbox stuff */
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    /* Text styles */
-    text-align: center;
-    color: white;
-    
-    /* Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("vintage-wallpaper-background_53876-31379.jpg");
+
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.text {
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+}
+
+.img{
+    width: 13%;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    left:16px;
+    
+}
+
+body{
+    background-color: blue;
+
+}
+    
+
+
+.hero {
+    /* Sizing */
+    width: 200vw;
+    height: 200vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("unnamed.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Icon 1 */
 
 .animated-icon1, .animated-icon2, .animated-icon3 {
     width: 30px;
@@ -165,7 +144,11 @@ body {
         font-family: 'Raleway', sans-serif;
         font-size: 25px;
     }
-  
+
     .w3-quarter{
         margin-left: 10%;
     }
+
+
+
+    
