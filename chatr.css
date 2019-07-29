@@ -204,7 +204,7 @@ div {
   .usernames {
     padding-bottom: 30px;
     font-size: 40px;
-    float: left;
+    /* float: left; */
     padding-left: 10px;
     margin-left: -40px;
     display: inline-block;
@@ -294,6 +294,14 @@ div {
       padding: 30px;
       padding-bottom: 30px;
     }
-    @import url('//fonts.googleapis.com/css?family=Pacifico&text=Pure');
+
+.img{
+    width: 13%;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    left:16px;
+}
+    /* @import url('//fonts.googleapis.com/css?family=Pacifico&text=Pure');
   @import url('//fonts.googleapis.com/css?family=Roboto:700&text=css');
-  @import url('//fonts.googleapis.com/css?family=Kaushan+Script&text=!');
+  @import url('//fonts.googleapis.com/css?family=Kaushan+Script&text=!'); */
