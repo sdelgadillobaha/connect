@@ -39,6 +39,14 @@ body{
     background-repeat: no-repeat;
 
 }
+    
+.background {
+   
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 .hero {
