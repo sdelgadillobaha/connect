@@ -102,3 +102,24 @@ body{
 .body {
     text-align: center
 }
+
+.orgs{
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.w3{
+    margin-left: 10%
+}
+
+a {
+    color:blue 
+}
+
+a:visited {
+    color: blue;
+}
