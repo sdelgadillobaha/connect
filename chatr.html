@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="chatr.css" type="text/css">
+    <script src="chatr.js" type="text/javascript"> </script>
+    <link rel = "stylesheet" type = "text/css" href = "header.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Butterfly Kids' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Atomic%20Age" rel="stylesheet" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Oleo Script' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sansita' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Salsa' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko:600" rel="stylesheet">
+    <link async href="https://fonts.googleapis.com/css?family=Squada%20One" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" type="image/png" href="finallips.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Chatr</title>
+  </head>
+
+  <body style = "padding-bottom: 2000px;">
+    <div class = "profileManagement">
+      <a id="createAccount" href="createAccount.html">New Account</a><br>
+      <a>or</a><br>
+      <a id="signIn" href="signIn.html">Sign In</a><br>
+    </div>
+
+    <div class = "header">
+      <img class = "logo" src="Chater5Cropped.png" alt="Chatter logo" >
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="chatr.html">Chat Room</a>
+        <a href="Inspirationboard.html">Inspiration</a>
+        <a href="aboutus.html">About Us</a>
+      </div>
+    </div>
+
+<!--the row with the forum title and survey-->
+    <div class = "forumHeader">
+      <div class = "forumHeaderText">
+        <p id = "forumTitle">General Forum</p>
+        <p id = "noPosts">There are no posts yet. Add one via the box at the bottom.</p>
+      </div>
+      <!--suggestion survey-->
+      <div class="survey">
+        <div class="dropdown">
+          <span class="material-icons" style="font-size:36px; padding-top:5px; padding-left: 5px; margin-left: auto; margin-right: auto;color:white;font-size:80px;">developer_board</span>
+          <div class="dropdown-content">
+            <p> Click the link below to suggest new forum topics!</p>
+          </div>
+        </div>
+        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSetuyt_grz53fNgZhr5Bq1KWreBKpjCT5vSx2xK2xH9D2fP1g/viewform">Suggest topics</a></p>
+      </div>
+    </div>
+
+<!--first post-->
+    <div class = "forum">
+      <div class="row">
+        <div id="postBox1" class="postBoxes">
+          <div id="user">
+            <img class = "userimage" src="minion2.jpg">
+            <div class="usernames">user_1</div>
+          </div>
+          <div id="textcolumn">
+            <div id="textbox">
+              <span id="downicon1" class="dropdown">
+                <button class="circle1" style="font-size:25px;color:red;"><i class="fa fa-thumbs-down"></i></button>
+                <img class="dropdown-content" src="boo.gif">
+              </span>
+              <span id="thumbicon1" class="dropdown">
+                <button class="circle1" style="font-size:25px;color:green;"><i class="fa fa-thumbs-up"></i></button>
+                <img class="dropdown-content" src="thumbup.gif">
+              </span>
+              <p id="textSpace1"></p>
+            </div>
+            <p></p>
+            <!--comments box-->
+            <div id="commentList1" class = "commentListBox">
+              <div class="comments">Comment on this post</div>
+              <input class="button1" type="text" id="myComment1" name="text" placeholder="Type in a comment...">
+              <button style="font-weight:bold;" class="button1" onclick="comment1()">Send</button>
+              <span onclick="thumbsup1()" class="dropdown">
+                <button class="circle1" style="font-size:25px;color:green;"><i class="fa fa-thumbs-up"></i></button>
+                <img class="dropdown-content" src="thumbup.gif">
+              </span>
+              <span onclick="thumbsdown1()" class="dropdown">
+                <button class="circle1" style="font-size:25px;color:red;"><i class="fa fa-thumbs-down"></i></button>
+                <img class="dropdown-content" src="boo.gif">
+              </span>
+              <p></p>
+              <div class="dropdown">
+                <button class= "three" style="font-size:30px;color:red;"><i class="fa fa-microphone"></i></button>
+                <div class="dropdown-content">
+                  <img src="recordbutton.gif">
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="three" style="font-size:30px;color:blue;"> <i class="fa fa-camera"></i></button>
+                <div class="dropdown-content">
+                  <img src="pose.gif">
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="three" style="font-size:30px;color:green;"><i class="material-icons">attachment</i></button>
+                <div class="dropdown-content">
+                  <img src="click.gif">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+<!--2nd post-->
+    <div class="row">
+      <div id="postBox2" class="postBoxes">
+        <div id="user">
+          <img class = "userimage" src="minion2.jpg">
+          <div class="usernames">user_1</div>
+        </div>
+        <div id="textcolumn">
+          <div id = "textbox">
+            <span id="downicon2" class="dropdown">
+              <button class="circle1" style="font-size:25px;color:red;"><i class="fa fa-thumbs-down"></i></button>
+              <img class="dropdown-content" src="boo.gif">
+            </span>
+            <span id="thumbicon2" class="dropdown">
+              <button class="circle1" style="font-size:25px;color:green;"><i class="fa fa-thumbs-up"></i></button>
+              <img class="dropdown-content" src="thumbup.gif">
+            </span>
+            <p id="textSpace2"></p>
+          </div>
+          <p></p>
+          <!--comments box 2-->
+          <div id="commentList2" class = "commentListBox">
+            <div class="comments" >Comment on this post</div>
+            <input class="button1" type="text" id="myComment2" name="text" placeholder="Type in a comment...">
+            <button style="font-weight:bold;" class="button1" onclick="comment2()">Send</button>
+            <span onclick="thumbsup2()" class="dropdown">
+              <button class="circle1" style="font-size:25px;color:green;"><i class="fa fa-thumbs-up"></i></button>
+              <img class="dropdown-content" src="thumbup.gif">
+            </span>
+            <span onclick="thumbsdown2()" class="dropdown">
+              <button class="circle1" style="font-size:25px;color:red;"><i class="fa fa-thumbs-down"></i></button>
+              <img class="dropdown-content" src="boo.gif">
+            </span>
+            <p></p>
+            <button class="three" style="font-size:30px;color:red;"><i class="fa fa-microphone"></i></button>
+            <button class="three" style="font-size:30px;color:blue;"> <i class="fa fa-camera"></i></button>
+            <button class="three" style="font-size:30px;color:green;"><i class="material-icons">attachment</i></button>
+          </div>
+        </div>
+      </div>
+    </div> <!--closes the div that separates the forums from the header-->
+
+    <footer>
+      <div>
+        <a id = "PostTitle" style = "padding-right: 65px; color: purple;">Post</a>
+        <input type="text" id="enteredPost" name="text" placeholder="Enter your own post...">
+        <button onclick="post()" style="font-weight:bold;">Send Text</button>
+        <button onclick="record()" style="font-weight:bold;">Record</button>
+        <button onclick="image()" style="font-weight:bold;">Image</button>
+        <button onclick="link()"style="font-weight:bold;">Link</button>
+      </div>
+      <div class="search-container" align = "right">
+        <form action="/action_page.php">
+          <input type="text" placeholder="#hashtag" name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div class="sidenav">
+        <div style = "text-decoration: underline; color: black; font-size: 24px; font-weight: bold;">Forum Topics</div>
+        <a href="#relationships">Relationships</a>
+        <a href="#friends&family">Friends & Family</a>
+        <a href="#beauty">Beauty</a>
+        <a href="#misc">Miscellaneous</a>
+      </div>
+    </footer>
+
+  </body>
+</html>
