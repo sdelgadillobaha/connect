@@ -23,7 +23,7 @@ div {
   #PostTitle {
     color:black;
     font-size: 25px;
-    font-family: "Abril Fatface";
+    font-family: 'Raleway', sans-serif;
   }
   
   * {
@@ -33,7 +33,7 @@ div {
   
   #forumTitle {
     text-align: center;
-    font-family: "Abril Fatface";
+    font-family: 'Raleway', sans-serif;
     font-size: 35px;
   }
   
@@ -102,25 +102,25 @@ div {
   }
   
   #commentList1 {
-    font-family: 'Teko', sans-serif;
+   font-family: 'Raleway', sans-serif;
   }
   
   #commentList2 {
-    font-family: 'Teko', sans-serif;
+   font-family: 'Raleway', sans-serif;
   }
   
   #textSpace1 {
-      font-family: 'Teko', sans-serif;
+     font-family: 'Raleway', sans-serif;
   }
   
   #textSpace2 {
-      font-family: 'Teko', sans-serif;
+     font-family: 'Raleway', sans-serif;
   }
   
   .postBoxes {
-    background-color:#F4C2C2;
+    background-color:rgb(238, 224, 148);
     border-style:solid;
-    border-color:	#9370DB;
+    border-color:goldenrod;
     float: left;
     width: 65%;
     padding:40px;
@@ -133,7 +133,7 @@ div {
     float:right;
     width: 16.5%;
     padding-top: 20px;
-    background-color:		#DB7093;
+    background-color:goldenrod;
   }
   
   #user{
@@ -176,13 +176,13 @@ div {
     z-index: 1;
     top: 334px;
     left: 1050px;
-    background:	#FA8072;
+    background:	gold;
     overflow-x: hidden;
-    padding: 12px 0;
+    padding: 5px 0;
   }
   
   .sidenav a {
-    padding: 6px 8px 8px 12px;
+    padding: 5px 5px 5px 5px;
     text-decoration: none;
     font-size: 18px;
     color: black;
@@ -246,7 +246,7 @@ div {
   .comments{
     padding: 20px;
     font-weight:bold;
-    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
   
   .dropdown {
