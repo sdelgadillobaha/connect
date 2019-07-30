@@ -2,6 +2,15 @@
     margin-left: 12%;
 } 
 
+.img{
+    width: 13%;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    left:16px;
+    
+}
+
 body {
     background-image: url("blackyellow.png");
 }
