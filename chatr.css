@@ -50,8 +50,10 @@ div {
   
   #noPosts {
     text-align: center;
-    font-family: "Helvetica";
-    font-size: 25px;
+    color: gold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
   }
   
   .forum {
@@ -239,7 +241,7 @@ div {
    background-color:		#FFE4E1;
    height: 100vh;
    margin: 0;
-   background: radial-gradient(circle, darken(dodgerblue, 10%), #1f4f96, #1b2949, #000);
+   background-image: url("blackyellow.png")
   }
   .comments{
     padding: 20px;
@@ -281,19 +283,12 @@ div {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
-  
+/*   
   @media screen and (max-width: 600px) {
     .topnav .search-container {
       float: none;
-    }
-    .topnav a, .topnav input[type=text], .topnav .search-container button {
-      display: block;
-      text-align: left;
-      width: 100%;
-      margin: 0;
-      padding: 30px;
-      padding-bottom: 30px;
-    }
+    } */
+
 
 .img{
     width: 13%;
@@ -301,7 +296,5 @@ div {
     position: absolute;
     top:10px;
     left:16px;
+    
 }
-    /* @import url('//fonts.googleapis.com/css?family=Pacifico&text=Pure');
-  @import url('//fonts.googleapis.com/css?family=Roboto:700&text=css');
-  @import url('//fonts.googleapis.com/css?family=Kaushan+Script&text=!'); */
