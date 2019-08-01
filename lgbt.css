@@ -123,5 +123,10 @@ a {
 a:visited {
     color: blue;
 }
-
-
+.news{
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 47px;
+    font-weight: bold;
+}
