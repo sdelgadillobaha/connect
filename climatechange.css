@@ -102,3 +102,12 @@ body{
 .body {
     text-align: center
 }
+
+
+.news{
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 47px;
+    font-weight: bold;
+}
